@@ -74,8 +74,8 @@ notification:
   webhooks:
     feishu_url: "" # 飞书机器人的 webhook URL
     dingtalk_url: "" # 钉钉机器人的 webhook URL
-    wework_url: "" # 企业微信机器人的 webhook URL
-    wework_msg_type: "markdown" # 企业微信消息类型：markdown(群机器人) 或 text(个人微信应用)
+    wework_url: "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=26ba8a2f-9493-4974-8bbb-c9b43f94515f" # 企业微信机器人的 webhook URL
+    wework_msg_type: "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=26ba8a2f-9493-4974-8bbb-c9b43f94515f" # 企业微信消息类型：markdown(群机器人) 或 text(个人微信应用)
     telegram_bot_token: "" # Telegram Bot Token
     telegram_chat_id: "" # Telegram Chat ID
     email_from: "" # 发件人邮箱地址
@@ -87,7 +87,7 @@ notification:
     ntfy_topic: "" # ntfy主题名称
     ntfy_token: "" # ntfy访问令牌（可选，用于私有主题）
     bark_url: "" # Bark推送URL（格式：https://api.day.app/your_device_key 或自建服务器地址）
-    slack_webhook_url: "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=26ba8a2f-9493-4974-8bbb-c9b43f94515f" # Slack Incoming Webhook URL（格式：https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX）
+    slack_webhook_url: "" # Slack Incoming Webhook URL（格式：https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX）
 
 # 用于让关注度更高的新闻在更前面显示，即用算法重新组合不同平台的热搜排序形成你侧重的热搜，合起来是 1 就行
 weight:
